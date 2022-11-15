@@ -1,6 +1,7 @@
 package com.codewars.java;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class SmallestIntegerFinder {
 
@@ -10,8 +11,7 @@ public class SmallestIntegerFinder {
 		int x[]= {34, 15, 88, 2};
 		
 		
-
-	}
+			}
 	
 	public static int findSmallestInt(int[] args) {
 		Arrays.sort(args);
