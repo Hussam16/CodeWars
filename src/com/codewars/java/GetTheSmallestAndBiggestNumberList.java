@@ -21,12 +21,6 @@ public class GetTheSmallestAndBiggestNumberList {
 
 	}
 
-	public int min(int[] list) {
-		return IntStream.of(list.stream().mapToInt(i->i).toArray()).min().getAsInt(); 
-	}
 
-	public int max(int[] list) {
-		return 0;
-	}
 
 }
